@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		// Basic Options
+		"outDir": "dist",
+		"target": "ESNext",
+		"removeComments": true,
+		// Modules
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		// Error reporting
+		"strict": true,
+		"allowJs": true,
+		"checkJs": true,
+		"noImplicitAny": true,
+		"noFallthroughCasesInSwitch": false,
+		"allowSyntheticDefaultImports": true,
+		"isolatedModules": true,
+		"declaration": true,
+		// Paths aliases
+		"paths": {
+			"@/*": [
+				"./src/*"
+			]
+		}
+	},
+	"include": [
+		"src"
+	]
+}

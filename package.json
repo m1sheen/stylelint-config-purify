@@ -1,0 +1,51 @@
+{
+	"name": "stylelint-config-purify",
+	"version": "1.0.0",
+	"author": "m1sheen",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/m1sheen/stylelint-config-purify.git"
+	},
+	"license": "MIT",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"scripts": {
+		"build": "tsup \"./src/index.js\" --format cjs,esm --dts --clean",
+		"lint": "eslint && stylelint \"**/*.{css,scss}\"",
+		"lint:fix": "eslint --fix && stylelint \"**/*.{css,scss}\" --fix"
+	},
+	"dependencies": {
+		"stylelint-config-standard-scss": "^14.0.0",
+		"stylelint-order": "^6.0.4",
+		"stylelint-prettier": "^5.0.2",
+		"stylelint-scss": "^6.10.0",
+		"stylelint-semantic-groups": "^1.2.1"
+	},
+	"devDependencies": {
+		"eslint": "^9.17.0",
+		"eslint-config-purify": "^2.8.0",
+		"globals": "^15.14.0",
+		"prettier": "^3.4.2",
+		"sass": "^1.83.0",
+		"stylelint": "^16.12.0",
+		"tsup": "^8.3.5",
+		"typescript": "^5.7.2"
+	},
+	"engines": {
+		"node": ">=18.12.0"
+	},
+	"files": [
+		"dist",
+		"LICENSE",
+		"README.md"
+	],
+	"keywords": [
+		"lint",
+		"stylelint",
+		"css",
+		"scss",
+		"purify",
+		"config"
+	]
+}

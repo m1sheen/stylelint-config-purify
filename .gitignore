@@ -1,0 +1,6 @@
+# Compiled output
+node_modules
+dist
+
+# Only apps should have lockfiles
+package-lock.json
