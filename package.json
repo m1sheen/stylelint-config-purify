@@ -1,6 +1,6 @@
 {
 	"name": "stylelint-config-purify",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"author": "m1sheen",
 	"repository": {
 		"type": "git",
@@ -23,12 +23,12 @@
 		"stylelint-semantic-groups": "^1.2.1"
 	},
 	"devDependencies": {
-		"eslint": "^9.22.0",
-		"eslint-config-purify": "^2.9.0",
+		"eslint": "^9.23.0",
+		"eslint-config-purify": "^2.10.0",
 		"globals": "^16.0.0",
 		"prettier": "^3.5.3",
 		"sass": "^1.86.0",
-		"stylelint": "^16.16.0",
+		"stylelint": "^16.17.0",
 		"tsup": "^8.4.0",
 		"typescript": "^5.8.2"
 	},
